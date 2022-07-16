@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+body{
+		font-family: Poppins;		
+		background: white;
+		
+}
+.inp{
+				color: gray;
+			 font-weight: bold;
+			 opacity: 0.5;
+			 text-align: center;
+			 font-size: 25px;
+			 margin-bottom: em;
+			 margin-top: 2em;
+			 
+}
+.container{
+  
+		background: rgb(0,0,0,0.4);		
+		color: white;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	 margin-left: 1em;
+	 margin-right: 1em;
+		border-radius: 20px;
+		z-index: 444;
+		border-bottom: 1px solid white;
+		
+}
+.title{
+				font-size: 18px;
+				background: red;
+				text-align: center;
+				padding: .5em;
+				border-radius: 10px;
+				margin-left: 1em;
+				margin-right: 1em;
+				margin-top: 1em;
+}
+
+.subhead{
+				padding-left: 4em;
+				padding-right: 4em;
+				text-align: center;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				font-size: 10px;
+				color: gray;
+				opacity: 0.5;
+				margin-bottom: 3em;
+}
+
+
+.quotes {
+				color: white;
+				padding: 1.5em;
+				justify-content: center;
+				display: flex;
+				align-items: center;
+				text-align: center;
+				font-family: Poppins;		
+				
+				
+}
+button{
+				background: red;
+				color: white;
+				border: none;
+				border-radius: 20px;
+				border-bottom: white 3px solid;
+				padding: 1em;
+				margin-bottom: 1.4em;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+}
+button:hover{
+				border-bottom:white 1px solid ;
+}
+.person{
+				margin-bottom: 1em;
+}
+.foot{
+      margin-top: 4em;
+				text-align: center;
+				font-size: 15px;
+				color: gray;
+}
+.footer{
+				text-align: center;
+				font-size: 7px;
+				color: gray;
+}
+
+@media screen and  (min-width: 700px){
+				
+				.container{
+							margin-left: 8em;
+							margin-right: 8em;
+				}
+				.quotes{
+								padding: 2.5em;
+				}
+				
+}
