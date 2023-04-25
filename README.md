@@ -1,7 +1,10 @@
 # Qoutes Generator
 I just learned JavaScript and this my first ever JavaScript project. 
+
 It's a basic Quotes Generator that gives you some random Inspirational Coding Related Quotes. 
+
 The quotes are limited so you may experience repeated quotes. 
+
 Check the website here: https://andrejarl.github.io/qoutesgenerator.../index.html
 
 
